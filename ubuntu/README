@@ -1,0 +1,9 @@
+
+Dumb manual stuff:
+
+Build the container
+Run it
+open up neovim
+run PackUpdate
+run docker commit ${container_id} tavisto/vim:ubuntu
+
