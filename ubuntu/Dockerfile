@@ -46,4 +46,7 @@ RUN git clone https://github.com/tavisto/nvim-configs.git .config/nvim
 RUN mkdir -p .config/nvim/pack/minpac/opt
 RUN git clone https://github.com/k-takata/minpac.git .config/nvim/pack/minpac/opt/minpac
 RUN /usr/bin/nvim -c PackUpdate -c exit
+
+RUN git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
+
 CMD /usr/bin/nvim

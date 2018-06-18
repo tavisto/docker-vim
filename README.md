@@ -3,7 +3,7 @@ Alpine Linux Docker image that contains neovim and some basic configs for using 
 
 # TODO:
 
-* Pull neovim configs
-* Get python integration up and running
+* ~~ Pull neovim configs ~~
+* ~~ Get python integration up and running ~~
 * Get fzf installed
 
