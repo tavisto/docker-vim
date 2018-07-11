@@ -1,5 +1,5 @@
 # Neovim in a container
-Alpine Linux Docker image that contains neovim and some basic configs for using for editing
+Linux Docker image that contains neovim and some basic configs for using for editing
 
 # TODO:
 
